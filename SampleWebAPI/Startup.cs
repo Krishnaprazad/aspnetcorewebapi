@@ -43,7 +43,7 @@ namespace SampleWebAPI
                 app.UseDeveloperExceptionPage();
             }
 
-            //configure swagger and UI
+            //configure swagger  and UI
             app.UseSwagger();
             app.UseSwaggerUI(
                 setupAction =>
